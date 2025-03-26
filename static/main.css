@@ -22,7 +22,7 @@ body {
     font-size: 18px;
     text-align:center;
     letter-spacing:1.2px;
-    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(255,165,0,.4) 10%,rgba(255,255,0,0) 40%),-moz-linear-gradient(top,  rgba(255,140,0,.25) 0%, rgba(255,215,0,.4) 100%), -moz-linear-gradient(-45deg,  #ff8c00 0%, #ffd700 100%);
+    background: -moz-radial-gradient(0% 100%, ellipse cover, rgba(172, 134, 62, 0.4) 10%,rgba(255,255,0,0) 40%),-moz-linear-gradient(top,  rgba(255,140,0,.25) 0%, rgba(255,215,0,.4) 100%), -moz-linear-gradient(-45deg,  #ff8c00 0%, #ffd700 100%);
     background: -webkit-radial-gradient(0% 100%, ellipse cover, rgba(255,165,0,.4) 10%,rgba(255,255,0,0) 40%), -webkit-linear-gradient(top,  rgba(255,140,0,.25) 0%,rgba(255,215,0,.4) 100%), -webkit-linear-gradient(-45deg,  #ff8c00 0%,#ffd700 100%);
     background: -o-radial-gradient(0% 100%, ellipse cover, rgba(255,165,0,.4) 10%,rgba(255,255,0,0) 40%), -o-linear-gradient(top,  rgba(255,140,0,.25) 0%,rgba(255,215,0,.4) 100%), -o-linear-gradient(-45deg,  #ff8c00 0%,#ffd700 100%);
     background: -ms-radial-gradient(0% 100%, ellipse cover, rgba(255,165,0,.4) 10%,rgba(255,255,0,0) 40%), -ms-linear-gradient(top,  rgba(255,140,0,.25) 0%,rgba(255,215,0,.4) 100%), -ms-linear-gradient(-45deg,  #ff8c00 0%,#ffd700 100%);
