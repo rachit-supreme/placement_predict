@@ -14,12 +14,16 @@ def home():
 @app.route('/predict',methods=['POST'])
 def predict():
    
-    float_features = [int(x) for x in request.form.values()]
+    float_features = [float(x) for x in request.form.values()]
     final_features = [np.array(float_features)]
     scaled_features = scaler.transform(final_features)
     prediction = model.predict(scaled_features)
 
     output =(prediction[0])
+    if output == 1:
+        output = 'Placed'
+    else:
+        output = 'Not Placed'
 
     return render_template('index.html', prediction_text='Placement status : {}'.format(output))
 
