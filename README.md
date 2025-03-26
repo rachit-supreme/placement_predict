@@ -2,4 +2,4 @@
 Placement prediction model using Logistic Regression.
 
 
-Deployed on GCloud https://linearreg-454911.as.r.appspot.com
+Deployed on Google Cloud https://test-1007886384782.asia-south1.run.app
